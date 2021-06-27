@@ -39,4 +39,15 @@ The features (columns) contained messy entries and were tidied on excel and note
 * The count of the different car transmission types used in the data analysis after removing duplicate values.
 ![Car transmission distribution](/images/distribution-of-car-transmission.png)
 
+
+* The word cloud of all car makes.
+
+![Car make wordcloud](/images/cast.png)
+
 ## Model Building
+* The 'name' and 'year' column were dropped because they are irrelevant. 
+* The categorical features (name, colour and transmission) were transformed into numerical data and I scaled all the feature values to make all of them be in the same range
+* **Multiple Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
+* **Root mean squared error (RMSE)** which is the square root of the sum of the difference between the true value and the predicted value was the metric used to evaluate the performance of the model.
+* **Linear Regression** was chosen because it had a lower RMSE
+
