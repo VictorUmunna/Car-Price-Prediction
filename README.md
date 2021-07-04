@@ -47,7 +47,7 @@ The features (columns) contained messy entries and were tidied on excel and note
 ## [Model Building](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/model_building.ipynb)
 * The 'name' and 'year' column were dropped because they are irrelevant. 
 * The categorical features (name, colour and transmission) were transformed into numerical data and I scaled all the feature values to make all of them be in the same range
-* **Multiple Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
+* **Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
 * **Root mean squared error (RMSE)** which is the square root of the sum of the difference between the true value and the predicted value was the metric used to evaluate the performance of the model.
 * **Linear Regression** was chosen because it had a lower RMSE
 
