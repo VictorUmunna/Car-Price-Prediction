@@ -1,7 +1,7 @@
 # Car Price Prediction
 ![Car Image](/images/car_image.JPG)
 
-Image Credit: [Auction Export](https://www.auctionexport.com/)
+Image Credit: [AA Cars](https://www.theaa.com/cars/)
 
 ## Project Overview
 * Scraped over 2000 cars on auction from Auction Export websiter using Python and BeautifulSoup.
