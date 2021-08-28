@@ -1,5 +1,5 @@
 # Car Price Prediction
-![Car Image](/images/car_image.JPG)
+![Car Image](/images/car_image.jpg)
 
 Image Credit: [AA Cars](https://www.theaa.com/cars/)
 
