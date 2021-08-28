@@ -6,7 +6,7 @@ Image Credit: [AA Cars](https://www.theaa.com/cars/)
 ## Project Overview
 * Scraped 3000 used cars data from AA Cars website using Python and BeautifulSoup.
 * Cleaned the data and built a model to help determine the price of cars on auction
-* Bulld a flask web app and deploy to cloud
+* Built a flask web app and deploy to cloud
 
 ## Packages/Tools Used
 * Python Version: 3.9
