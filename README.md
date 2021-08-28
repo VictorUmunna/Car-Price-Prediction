@@ -4,8 +4,9 @@
 Image Credit: [AA Cars](https://www.theaa.com/cars/)
 
 ## Project Overview
-* Scraped over 2000 cars on auction from Auction Export websiter using Python and BeautifulSoup.
-* Cleaned the data and buikt a model to help determine the price of cars on auction
+* Scraped 3000 used cars data from AA Cars website using Python and BeautifulSoup.
+* Cleaned the data and built a model to help determine the price of cars on auction
+* Bulld a flask web app and deploy to cloud
 
 ## Packages/Tools Used
 * Python Version: 3.9
@@ -17,24 +18,28 @@ Image Credit: [AA Cars](https://www.theaa.com/cars/)
 * Scikit-Learn
 
 ## Data
-The data was scraped from [Auction Export](https://www.auctionexport.com/). The data was scraped from 50 pages from the site and was stored as a csv file. The scraped data contains:
+The data was scraped from [AA Cars](https://www.theaa.com/cars/). The data was scraped from multiple pages from the site and was stored as a csv file. The scraped data contains:
 * Name
 * Price
+* Year
 * Mileage
-* Colour
+* Engine
 * Transmisson
 
 ## [Data Cleaning](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/data_cleaning.ipynb) 
-The features (columns) contained messy entries and were tidied on excel and notebok using some custom functions. The following steps were taken.
-* Extracted the make of each car and the year from the name column
-* Corrected some car makes that were extracted wrongly from the name column
-* Created an age column by substacting the values in the year colun fom the current year, 2021. This is an easier column to work with.
-* Replaced the missing values in the numerical columns with the median values and the categorical columns with the modal values.
-* Removed duplicate rows with the same values across all columns and this reduced our data by half.
+The features (columns) contained messy entries and were tidied using some custom functions. The following steps were taken.
+* Removed the duplicate rows in the data because it will affect the analysis.
+* Deleted thhe rows with missing values because they ae not up to 1% of the data.
+* Extracted the manufaturer of each car from the name column
+* Corrected some of the values in the manufacturers column by merging similar value and correcting those wrongly extracted.
+* Removed the pounds symbol and the comma in the values of the price column
+* Created an age column by substacting the values in the year column fom the current year, 2021. This is an easier column to work with.
+* Removed the commas, space and miles input in all the values of the mileage columns.
+* * Corrected some of the values in the engine and transmission columns by merging similar value and correcting those wrongly extracted.
 
 ## [Exploratory Data Analysis](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/exploratory_analysis.ipynb)
 * The count of each car make used in the data analysis after removing duplicate values.
-![Car make distribution](/images/distribution-of-car-make.png)
+![Car make distribution](/images/distribution-of-car-manufacturers.png)
 
 * The count of the different car transmission types used in the data analysis after removing duplicate values.
 ![Car transmission distribution](/images/distribution-of-car-transmission.png)
@@ -49,5 +54,5 @@ The features (columns) contained messy entries and were tidied on excel and note
 * The categorical features (name, colour and transmission) were transformed into numerical data and I scaled all the feature values to make all of them be in the same range
 * **Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
 * **Root mean squared error (RMSE)** which is the square root of the sum of the difference between the true value and the predicted value was the metric used to evaluate the performance of the model.
-* **Linear Regression** was chosen because it had a lower RMSE
+![car_image](https://user-images.githubusercontent.com/58162911/131233053-e128a89e-b7a8-4633-ad44-ceaa75a31226.jpg)
 
