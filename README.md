@@ -45,7 +45,7 @@ The features (columns) contained messy entries and were tidied using some custom
 ![Year distribution](/images/distribution-of-car-by-year.png)
 
 * The count of the number of cars with the diffrent car engine types
-![Car engine distribution](/images/distribution-of-engine-type.png)
+![Car engine distribution](/images/distribution-of-car-engine-type.png)
 
 * The count of the number of cars with different car transmission types
 ![Car transmission distribution](/images/distribution-of-car-transmission.png)
