@@ -38,16 +38,21 @@ The features (columns) contained messy entries and were tidied using some custom
 * * Corrected some of the values in the engine and transmission columns by merging similar value and correcting those wrongly extracted.
 
 ## [Exploratory Data Analysis](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/exploratory_analysis.ipynb)
-* The count of each car make used in the data analysis after removing duplicate values.
-![Car make distribution](/images/distribution-of-car-manufacturers.png)
+* The count of the number of cars owned by each car manufacturer
+![Car manufacturer distribution](/images/distribution-of-car-manufacturers.png)
 
-* The count of the different car transmission types used in the data analysis after removing duplicate values.
+* The count of the number of cars from the different years
+![Year distribution](/images/distribution-of-car-by-year.png)
+
+* The count of the number of cars with the diffrent car engine types
+![Car engine distribution](/images/distribution-of-car-engine-type.png)
+
+* The count of the number of cars with different car transmission types
 ![Car transmission distribution](/images/distribution-of-car-transmission.png)
 
+* The word cloud of all car manufacturers.
 
-* The word cloud of all car makes.
-
-![Car make wordcloud](/images/cast.png)
+![Car manufacturer wordcloud](/images/cast.png)
 
 ## [Model Building](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/model_building.ipynb)
 * The 'name' and 'year' column were dropped because they are irrelevant. 
@@ -55,3 +60,4 @@ The features (columns) contained messy entries and were tidied using some custom
 * **Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
 * **Root mean squared error (RMSE)** which is the square root of the sum of the difference between the true value and the predicted value was the metric used to evaluate the performance of the model.
 
+A flask app is currently under construction
