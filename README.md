@@ -59,5 +59,7 @@ The features (columns) contained messy entries and were tidied using some custom
 * The categorical features (name, colour and transmission) were transformed into numerical data and I scaled all the feature values to make all of them be in the same range
 * **Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
 * **Root mean squared error (RMSE)** which is the square root of the sum of the difference between the true value and the predicted value was the metric used to evaluate the performance of the model.
+* The **CatBoost Regressor** model has the best performance and it was hypertuned using GridSearchCV to improve the performance.
+* The model was tested on new data and it gave a good output.
 
 A flask app is currently under construction
