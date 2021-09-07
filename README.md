@@ -62,4 +62,4 @@ The features (columns) contained messy entries and were tidied using some custom
 * The **CatBoost Regressor** model has the best performance and it was hypertuned using GridSearchCV to improve the performance.
 * The model was tested on new data and it gave a good output.
 
-A flask app is currently under construction
+A Streamlit app is currently under construction
