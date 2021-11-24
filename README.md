@@ -50,7 +50,7 @@ The features (columns) contained messy entries and were tidied using some custom
 * The count of the number of cars with different car transmission types
 ![Car transmission distribution](/images/distribution-of-car-transmission.png)
 
-* The word cloud of all car manufacturers.
+* The word cloud viaualization of car manufacturers.
 
 ![Car manufacturer wordcloud](/images/cast.png)
 
