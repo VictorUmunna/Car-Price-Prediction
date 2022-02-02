@@ -59,7 +59,7 @@ def main():
         X[:,0] = le_manufacturer.fit_transform(X[:,0])
         X[:,3] = le_engine.fit_transform(X[:,3])
         X[:,4] = le_transmission.fit_transform(X[:,4])
-        scaled_X = norm.transform(X.values)
+        scaled_X = norm.transform(X)
 
         price = model.predict(scaled_X)
         # convert the price from log_price to actual price
