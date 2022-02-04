@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
 def load_model():
-    with gzip.open('regressor.pkl', 'rb') as file:
+    with open('regressor.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
