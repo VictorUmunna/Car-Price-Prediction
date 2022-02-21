@@ -52,4 +52,4 @@ cars = pd.concat([first_features, second_features], axis=1,ignore_index=True)
 cars.columns = ['name', 'price', 'year', 'mileage', 'engine', 'transmission']
 
 # save new dataframe in a csv file   
-cars.to_csv('car_data.csv', index=False)
+cars.to_csv('../input/car_data.csv', index=False)
