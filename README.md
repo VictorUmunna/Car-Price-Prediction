@@ -64,4 +64,5 @@ The features (columns) contained messy entries and were tidied using some custom
 
 ## [Web Application](https://github.com/VictorUmunna/Admission-Prediction/blob/main/app.py)
 I built a web application using Streamlit and deployed it to Streamlit Cloud.
+
 The web app : [Car Prediction App](https://share.streamlit.io/victorumunna/car-price-prediction/app.py)
