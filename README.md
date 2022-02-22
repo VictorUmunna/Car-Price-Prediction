@@ -26,7 +26,7 @@ The data was scraped from [AA Cars](https://www.theaa.com/cars/). The data was s
 * Engine
 * Transmisson
 
-## [Data Cleaning](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/data_cleaning.ipynb) 
+## [Data Cleaning](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/notebooks/02-data_cleaning.ipynb) 
 The features (columns) contained messy entries and were tidied using some custom functions. The following steps were taken.
 * Removed the duplicate rows in the data because it will affect the analysis.
 * Deleted thhe rows with missing values because they ae not up to 1% of the data.
@@ -37,7 +37,7 @@ The features (columns) contained messy entries and were tidied using some custom
 * Removed the commas, space and miles input in all the values of the mileage columns.
 * * Corrected some of the values in the engine and transmission columns by merging similar value and correcting those wrongly extracted.
 
-## [Exploratory Data Analysis](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/exploratory_analysis.ipynb)
+## [Exploratory Data Analysis](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/notebooks/03-exploratory_analysis.ipynb)
 * The count of the number of cars owned by each car manufacturer
 ![Car manufacturer distribution](/images/distribution-of-car-manufacturers.png)
 
@@ -54,7 +54,7 @@ The features (columns) contained messy entries and were tidied using some custom
 
 ![Car manufacturer wordcloud](/images/cast.png)
 
-## [Model Building](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/model_building.ipynb)
+## [Model Building](https://github.com/VictorUmunna/Car-Price-Prediction/blob/master/notebooks/04-model_building.ipynb)
 * The 'name' and 'year' column were dropped because they are irrelevant. 
 * The categorical features (name, colour and transmission) were transformed into numerical data and I scaled all the feature values to make all of them be in the same range
 * **Linear Regression**, **Ridge Regression**, **Random Forest Regressor**, **Ada Boost Regressor** and **Support Vector Regressor** models were all built.
@@ -62,6 +62,6 @@ The features (columns) contained messy entries and were tidied using some custom
 * The **CatBoost Regressor** model has the best performance and it was hypertuned using GridSearchCV to improve the performance.
 * The model was tested on new data and it predicted a good price.
 
-## [Web Application](https://used-cars-prices-prediction.herokuapp.com/)
+## [Web Application](https://github.com/VictorUmunna/Admission-Prediction/blob/main/app.py)
 I built a web application using Streamlit and deployed it to Streamlit Cloud.
 The web app : [Car Prediction App](https://share.streamlit.io/victorumunna/car-price-prediction/app.py)
