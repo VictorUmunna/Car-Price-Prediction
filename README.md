@@ -63,5 +63,5 @@ The features (columns) contained messy entries and were tidied using some custom
 * The model was tested on new data and it predicted a good price.
 
 ## [Web Application](https://used-cars-prices-prediction.herokuapp.com/)
-I built a web application using Streamlit and deployed it to Heroku.
-The web app : https://used-cars-prices-prediction.herokuapp.com/
+I built a web application using Streamlit and deployed it to Streamlit Cloud.
+The web app : [Car Prediction App](https://share.streamlit.io/victorumunna/car-price-prediction/app.py)
