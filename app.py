@@ -20,6 +20,7 @@ le_engine = LabelEncoder()
 le_transmission = LabelEncoder()
 
 def main():
+    #build the main app
     st.title("USED CAR PRICE PREDICTION APP")
 
     st.write("""### We need some information to predict the price""")
