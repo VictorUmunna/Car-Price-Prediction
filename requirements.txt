@@ -29,7 +29,6 @@ GitPython==3.1.26
 graphviz==0.19.1
 idna==3.3
 ipykernel==6.7.0
-ipywidgets==7.6.5
 jedi==0.18.1
 Jinja2==3.0.3
 joblib==1.1.0
@@ -74,6 +73,10 @@ pyparsing==3.0.7
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+pywin32==303
+pywinpty==2.0.1
+pyzmq==22.3.0
 requests==2.27.1
 scikit-learn==1.0.2
 scipy==1.7.3
