@@ -9,7 +9,7 @@ Image Credit: [AA Cars](https://www.theaa.com/cars/)
 * Built a flask web app and deploy to cloud
 
 ## Packages/Tools Used
-* Python Version: 3.9
+* Python
 * BeautifulSoup
 * Request
 * Numpy
