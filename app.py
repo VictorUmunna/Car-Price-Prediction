@@ -51,7 +51,7 @@ def main():
 
     manufacturer = st.selectbox("Manufacturer", manufacturers)
     age = st.slider("Age of Car", 1, 50, 1)
-    mileage = st.text_input("Mileage","Type Here", max_chars = 6)
+    mileage = st.number_input("Mileage", min_value=0, max_value=999999, value=0)
     engine = st.selectbox("Engine", engines)
     transmission = st.selectbox("Transmission", transmissions)
 
